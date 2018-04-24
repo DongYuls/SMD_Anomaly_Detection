@@ -26,7 +26,7 @@ Librosa 0.5.1
 **The code includes scripts for ...**\
 `setup_dataset.py`: data pre-processing and building tfrecords.\
 `model.py`: the network architecture as proposed in our paper.\
-`main.py`: training script for this model.
+`main.py`: training and model evaluation.
 
 **Usage:**\
 `python setup_dataset.py` transforms the audio files (with STFT) in each class into tfrecords before training the model.\
