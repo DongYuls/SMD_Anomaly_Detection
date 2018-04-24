@@ -1,6 +1,6 @@
 # Residual Error based Anomaly Detection Using Auto-Encoder in SMD Machine Sound
 
-![](https://github.com/DongYuls/SMD_Anomaly_Detection/__pycache__/SMD.png)
+![](__pycache__/SMD.PNG?raw=true)
 
 ## About
 
