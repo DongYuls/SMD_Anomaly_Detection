@@ -19,19 +19,19 @@ Tensorflow 1.4.0\
 Psutil 5.4.1\
 Numpy 1.13.3\
 Matplotlib 1.2.0\
-Librosa 0.5.1\
+Librosa 0.5.1
 
 ### Training & Validation
 
 **The code includes scripts for ...**\
-`setup_dataset.py`: data pre-processing and building tfrecords.
-`model.py`: the network architecture as proposed in our paper.
+`setup_dataset.py`: data pre-processing and building tfrecords.\
+`model.py`: the network architecture as proposed in our paper.\
 `main.py`: training script for this model.
 
 **Usage:**\
-`python setup_dataset.py` transforms the audio files (with STFT) in each class into tfrecords before training the model.
-`python setup_dataset.py test` checks if tfrecords has been created properly.
-`python main.py --train=true` trains the model only with normal data and learning their manifold.
+`python setup_dataset.py` transforms the audio files (with STFT) in each class into tfrecords before training the model.\
+`python setup_dataset.py test` checks if tfrecords has been created properly.\
+`python main.py --train=true` trains the model only with normal data and learning their manifold.\
 `python main.py` measures AUC the residual error for each abnormal and normal test case.
 
 
