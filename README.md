@@ -1,6 +1,6 @@
 # Residual Error based Anomaly Detection Using Auto-Encoder in SMD Machine Sound
 
-![](https://github.com/DongYuls/SMD_Anomaly_Detection/SMD.png)
+![](https://github.com/DongYuls/SMD_Anomaly_Detection/__pycache__/SMD.png)
 
 ## About
 
@@ -12,12 +12,12 @@ All of these scripts are based on the [[sample](http://www.mdpi.com/1424-8220/18
 
 ### Dependencies
 
-Python 3.5.0
-Tensorflow 1.4.0
-Psutil 5.4.1
-Numpy 1.13.3
-Matplotlib 1.2.0
-Librosa 0.5.1
+Python 3.5.0\
+Tensorflow 1.4.0\
+Psutil 5.4.1\
+Numpy 1.13.3\
+Matplotlib 1.2.0\
+Librosa 0.5.1\
 
 ### Training & Validation
 
