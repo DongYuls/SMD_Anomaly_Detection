@@ -25,7 +25,6 @@ class Auto_Encoder():
 			with tf.control_dependencies(tf.get_collection(tf.GraphKeys.UPDATE_OPS)):
 				self.train = tf.train.AdamOptimizer(0.001).minimize(self.loss)		
 
-
 	def Encoder(self, X, reuse=False):
 		with tf.variable_scope("Encoder") as scope:
 			if reuse == True: scope.reuse_variables()
@@ -51,7 +50,6 @@ class Auto_Encoder():
 			Conv = layers.conv2d(inputs=Conv, num_outputs=self.Z_dim, kernel_size=3, stride=2, activation_fn=None)
 			return Conv
 
-
 	def Decoder(self, Z, reuse=False):
 		with tf.variable_scope("Decoder") as scope:
 			if reuse == True: scope.reuse_variables()
@@ -76,3 +74,5 @@ class Auto_Encoder():
 			Conv = tf.nn.relu(layers.batch_norm(inputs=Conv, is_training=self.is_training))
 			Conv = layers.conv2d_transpose(inputs=Conv, num_outputs=1, kernel_size=5, stride=[2,1], activation_fn=None) # 1032		
 			return Conv
+
+			
