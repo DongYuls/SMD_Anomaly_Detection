@@ -8,7 +8,7 @@ This is the implementation of the paper "Residual Error based Anomaly Detection 
 
 For more information check out the paper [[PDF](http://www.mdpi.com/1424-8220/18/5/1308/pdf)] on MDPI Sensors [[website](http://www.mdpi.com/1424-8220/18/5/1308)].
 
-All of these scripts are based on the [[sample](http://www.mdpi.com/1424-8220/18/5/1308/s1)] dataset provided in our paper. Note that all rights reserved to [[Kravis Co., Ltd](http://www.crevis.co.kr/eng/main/main.php)], and only a few samples for the SMD machine sound can be released. The experimental results of this demo may differ (have poorer performance) from those in the paper because of the lack of training data.
+All of these scripts are based on the [[sample](http://www.mdpi.com/1424-8220/18/5/1308/s1)] dataset provided in our paper. Note that all rights reserved to [[Crevis Co., Ltd](http://www.crevis.co.kr/eng/main/main.php)], and only a few samples for the SMD machine sound can be released. The experimental results of this demo may differ (have poorer performance) from those in the paper because of the lack of training data.
 
 ## Getting started
 
@@ -26,7 +26,7 @@ Librosa 0.5.1
 **The code includes scripts for ...**\
 `setup_dataset.py`: data pre-processing and building tfrecords.\
 `model.py`: the network architecture as proposed in our paper.\
-`main.py`: training and model evaluation.
+`main.py`: training script for this model.
 
 **Usage:**\
 `python setup_dataset.py` transforms the audio files (with STFT) in each class into tfrecords before training the model.\
