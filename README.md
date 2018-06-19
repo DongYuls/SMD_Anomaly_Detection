@@ -29,9 +29,9 @@ Librosa 0.5.1
 `main.py`: training script for this model.
 
 **Usage:**\
-`python setup_dataset.py` transforms the audio files (with STFT) in each class into tfrecords before training the model.\
-`python setup_dataset.py test` checks if tfrecords is created properly.\
-`python main.py --train=true` trains the model only with normal data and learns their manifold.\
+`python setup_dataset.py` transforms the audio files in each class into the tfrecords using STFT.\
+`python setup_dataset.py test` checks if the tfrecords is created properly.\
+`python main.py --train=true` trains the model only with normal data.\
 `python main.py` measures AUC and the residual errors for each abnormal and normal test case.
 
 
