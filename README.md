@@ -23,7 +23,7 @@ Librosa 0.5.1
 
 ### Training & Validation
 
-**The code includes scripts for ...**\
+**Script:**\
 `setup_dataset.py`: data pre-processing and building tfrecords.\
 `model.py`: the network architecture as proposed in our paper.\
 `main.py`: training script for this model.
